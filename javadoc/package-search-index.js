@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"org.openjfx.clientfx","l":"org.openjfx.client"},{"m":"org.openjfx.clientfx","l":"org.openjfx.clientfx"},{"m":"org.openjfx.clientfx","l":"org.openjfx.server"},{"m":"org.openjfx.clientfx","l":"org.openjfx.server.models"}];updateSearchResults();

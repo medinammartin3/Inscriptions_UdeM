@@ -1,0 +1,5 @@
+module:org.openjfx.clientfx
+org.openjfx.client
+org.openjfx.clientfx
+org.openjfx.server
+org.openjfx.server.models

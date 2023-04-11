@@ -1,0 +1,2 @@
+Hiver	IFT2125	12345678	MartinEtienne	MedinaMitchell	bonemail@umontreal.ca
+Ete	IFT2256	12345678	Michalis	Famelis	prof@umontreal.ca
