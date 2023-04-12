@@ -167,10 +167,12 @@ public class Server {
             reader.close();
 
         } catch (IOException e) {
-            System.out.println("Erreur IO: " + e);
+            System.out.println("Server.handleLoadCourses(): IOException: " + e);
+            System.out.println("Fichier de cours non trouvé.");
         }
         catch (IndexOutOfBoundsException e) {
-            System.out.println("handleLoadCourses(): IndexOutOfBoundsException: " + e);
+            System.out.println("Server.handleLoadCourses(): IndexOutOfBoundsException: " + e);
+            System.out.println("Fichier de cours malformé.");
         }
 
     }
@@ -194,10 +196,10 @@ public class Server {
                     " au cours " + registrationForm.getCourse().getCode() + ".");
         }
         catch (IOException e) {
-            System.out.println("Erreur IO: " + e);
+            System.out.println("Server.handleRegistration(): IOException: " + e);
         }
         catch (ClassNotFoundException e) {
-            System.out.println("Class pas trouvé:" + e);
+            System.out.println("Server.handleRegistration(): ClassNotFoundException: " + e);
         }
     }
 }
