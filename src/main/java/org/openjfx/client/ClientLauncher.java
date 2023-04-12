@@ -23,18 +23,18 @@ public class ClientLauncher {
         int session;
         String entree = scannerSession.next();
         if (entree.equals("1"))
-            session = 1;
+            session = 0;
         else if (entree.equals("2"))
-            session = 2;
+            session = 1;
         else if (entree.equals("3"))
-            session = 3;
+            session = 2;
         else {
             System.out.println("Entrée invalide! Choix par défaut: Automne");
-            session = 1;
+            session = 0;
         }
-        System.out.println("Les cours offerts pendant la session d'" + cours[session - 1].toLowerCase() + " sont :");
+        System.out.println("Les cours offerts pendant la session d'" + cours[session].toLowerCase() + " sont :");
         client.connect("127.0.0.1", PORT);
-        courseList = client.getCourses(cours[session - 1]);
+        courseList = client.getCourses(cours[session]);
         if (courseList != null) {
             for(int i = 0; i < courseList.size(); i++){
                 System.out.println(i + 1 + ". " + courseList.get(i).getCode() + "\t" + courseList.get(i).getName());
