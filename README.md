@@ -1,7 +1,71 @@
-Le javadoc complet est présent dans le dossier 'javadoc' du projet GitHub. Dans le dossier javadoc/serveur présent dans ce dossier, vous trouverez seulement les fichiers HTML de Server.java, ServerLauncher.java, EventHandler.java.
 
-Pour que server.jar puisse interagir avec les fichiers cours.txt et inscription.txt, il faut les placer dans un dossier 'data' qui se situe dans le même dossier que server.jar. (Exactement comme on a déjà fait dans le dossier 'fichiers_jar')
+`*`*La version en français suit la version en anglais*`*`  
+`*`*French version follows*`*`
 
-Quand on exécute client_fx.jar avec le terminal, nous obtenons "Warning : Unsupported JavaFX configuration: classes were loaded from 'unnamed module @15c89abd'". Cependant cela ne cause aucun problème de fonctionnement et/ou d'exécution. De plus, nous avons vérifié sur internet que cela n'était pas problématique.
+# Java client-server application
 
-Pour client_fx.jar, nous avons rencontré des problèmes lorsque nous essayons d'ouvrir le fichier créé avec macOS sur Windows et vice-versa (quantum errors). Alors, nous avons décidé de faire une version pour macOS et une pour Windows. Les deux fichiers sont vérifiés (testés sur plusieurs machines) et fonctionnent sur leur système d'exploitation respectif. De plus, nous avons eu l'approbation de Michalis et Mouna pour procéder de cette manière. Veuillez s'il vous plaît exécuter le fichier correspondant à votre système d'exploitation (soit "client_fx_mac.jar" ou "client_fx_windows.jar"). Au pire communiquez avec nous ou exécutez l'application depuis le projet avec Launch.java.
+***Date :** Winter 2023*
+
+## Description
+
+Java client-server application that allows users (students) to register for courses with an implemented graphical interface (implemented with JavaFX).
+
+## How to Install
+
+* Download `out/artifacts/Fichiers_jar` folder (which contains the server executable `server.jar` file,  the program executable `client_fx.jar` file and the data folder).
+* **Java Version :** OpenJDK version 20
+
+## How to run
+
+  1. Open your computer's terminal, then write the following command: `java -jar server.jar` to launch the server.
+  2. Open other terminal window, then write the following command: `java -jar client_fx.jar` to launch the program.
+  * Make sure you're in the same folder as your `.jar` file (use the `cd` command to navigate through your folders).
+
+## Documentation
+
+You will find all JavaDoc documentation in the `javadoc` folder.
+
+## Credits
+
+This project is a practical work for the course IFT1025 (Object-Oriented programming). It was made in collaboration with [Étienne Mitchell-Bouchard](https://github.com/DarkZant).
+
+<br><br>
+___
+
+<br>
+
+# Application client-serveur en Java
+
+***Date :** Hiver 2023*
+
+## Description
+
+Application client-serveur qui permet aux utilisateur (étudiants) de s’inscrire aux cours avec une interface graphique implémentée avec JavaFX.
+
+## Comment installer
+
+* Téléchargez le dossier `out/artifacts/Fichiers_jar` (qui contient le fichier exécutable du serveur `server.jar`, le fichier exécutable du programme `client_fx.jar` et le dossier de données `data`).
+* **Version Java :** OpenJDK version 20
+
+## Comment exécuter
+
+  1. Ouvrez la console de votre ordinateur, puis écrivez la commande `java -jar server.jar` pour lancer le serveur.
+  2. Ouvrez une autre fenêtre de console, puis écrivez la commande `java -jar client_fx.jar` pour lancer le programme.
+  * Assurez-vous d'être dans le même dossier que votre fichier `.jar` (utilisez la commande `cd` pour naviguer dans vos dossiers).
+
+## Documentation
+
+Vous trouverez toute la documentation JavaDoc dans le dossier `javadoc`.
+
+## Crédits
+
+Ce projet est un travail pratique du cours IFT1025 (Programmation 2). Il a été effectué en groupe avec [Étienne Mitchell-Bouchard](https://github.com/DarkZant).
+
+<br>
+
+```txt
+©  /\\/\//\//\
+  \|/|\|/|\|/|/
+ /|/|\|/|\|\’ .\
+ ‘`|_|————|_|———o
+```
