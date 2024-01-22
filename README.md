@@ -10,6 +10,8 @@
 
 Java client-server application that allows users (students) to register for courses with an implemented graphical interface (implemented with JavaFX).
 
+* To see a demonstration video, click the following link : [https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf](https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf)
+
 ## How to Install
 
 * Download `out/artifacts/Fichiers_jar` folder (which contains the server executable `server.jar` file,  the program executable `client_fx.jar` file and the data folder).
@@ -41,6 +43,8 @@ ___
 ## Description
 
 Application client-serveur qui permet aux utilisateur (étudiants) de s’inscrire aux cours avec une interface graphique implémentée avec JavaFX.
+
+* Pour voir une vidéo de démonstration, cliquez sur le lien suivant : [https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf](https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf)
 
 ## Comment installer
 
