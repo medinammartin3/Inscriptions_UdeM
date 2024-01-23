@@ -42,7 +42,7 @@ ___
 
 ## Description
 
-Application client-serveur qui permet aux utilisateur (étudiants) de s’inscrire aux cours avec une interface graphique implémentée avec JavaFX et une simple base de donées en CSV.
+Application client-serveur qui permet aux utilisateur (étudiants) de s’inscrire aux cours avec une interface graphique implémentée avec JavaFX et une simple base de données en CSV.
 
 * Pour voir une vidéo de démonstration, cliquez sur le lien suivant : [https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf](https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf)
 
