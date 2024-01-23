@@ -8,7 +8,7 @@
 
 ## Description
 
-Java client-server application that allows users (students) to register for courses with an implemented graphical interface (implemented with JavaFX).
+Java client-server application that allows users (students) to register to their courses with a graphical interface implemented with JavaFX and a CSV database.
 
 * To see a demonstration video, click the following link : [https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf](https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf)
 
@@ -42,7 +42,7 @@ ___
 
 ## Description
 
-Application client-serveur qui permet aux utilisateur (étudiants) de s’inscrire aux cours avec une interface graphique implémentée avec JavaFX.
+Application client-serveur qui permet aux utilisateur (étudiants) de s’inscrire aux cours avec une interface graphique implémentée avec JavaFX et une simple base de donées en CSV.
 
 * Pour voir une vidéo de démonstration, cliquez sur le lien suivant : [https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf](https://youtu.be/T4D-IG02jn4?si=mEUauNpoNBSZ2QEf)
 
